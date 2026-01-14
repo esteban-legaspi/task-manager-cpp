@@ -1,0 +1,98 @@
+💻 Intermediate C++ Project
+Task Manager styled as a “mini-Notion in the console”
+
+Yes. Something real, useful, and designed to require serious programming thinking.
+
+🎯 Objective
+
+Create a console application that allows task management with file persistence, data structures, input validation, and clean logic.
+
+🧠 Technical Requirements (Mandatory)
+
+This project must use:
+
+struct or class
+
+vector
+
+enum
+
+File handling (fstream)
+
+Well-separated functions
+
+User input validation
+
+Interactive menu
+
+Clear logic (nothing entirely inside main)
+
+🗂️ Data Model
+
+Each task must include:
+
+id (int)
+
+title (string)
+
+description (string)
+
+priority (enum: LOW, MEDIUM, HIGH)
+
+status (enum: PENDING, IN_PROGRESS, COMPLETED)
+
+📋 Minimum Features
+
+📌 Create a task
+
+📄 List all tasks
+
+🔍 View a task by ID
+
+✏️ Edit a task
+
+❌ Delete a task
+
+💾 Save tasks to a file (tasks.txt)
+
+📂 Load tasks when the program starts
+
+If the data is not saved, the behavior is considered incorrect.
+
+📁 Persistence
+
+Use either a text file or a binary file.
+
+At program startup:
+
+If the file exists → load tasks
+
+If it does not exist → start with an empty state
+
+⭐ Optional Extensions
+
+Choose at least one:
+
+🔎 Filter tasks by priority or status
+
+🔄 Sort tasks (by priority or ID)
+
+🔐 Confirmation before deletion
+
+📊 Counter for completed tasks
+
+🧪 Basic error handling
+
+🧩 Real Difficulty
+
+This project:
+
+Is NOT beginner-level
+
+Requires design-oriented thinking
+
+Prepares for larger-scale projects
+
+Serves as a direct foundation for GUI applications or database-backed systems
+
+This is the appropriate level for intermediate development.
