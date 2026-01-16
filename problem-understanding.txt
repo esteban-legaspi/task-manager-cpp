@@ -1,1 +1,32 @@
 Understand the problem: 
+
+project: Task manager
+
+requirements: 
+- Structs or class
+- vector
+- enum
+- file handling
+- well-separated functions
+- user input validation
+- interactive menu
+- clear logic
+
+Data Model: 
+- id (int)
+- title (string)
+- description (string)
+- priority (enum: LOW, MEDIUM, HIGH)
+- status (enum: PENDING, IN_PROGRESS, COMPLETED)
+
+Minimum features: 
+- Create a task
+- List all tasks
+- View aa task by ID
+- Edit a task
+- Delete a task
+- Save tasks to a file (tasks.txt)
+
+Optional Extensions: 
+- Filter tasks by priorty or status.
+- Sort tasks (by priorty or ID).
