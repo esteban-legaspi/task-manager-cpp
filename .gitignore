@@ -1,0 +1,15 @@
+# Executables and objects
+*.exe
+*.o
+*.out
+
+# SQLite databases
+*.db
+
+# Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Temporary files of Visual Studio Code
+.vscode/*.log
