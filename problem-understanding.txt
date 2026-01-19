@@ -17,7 +17,7 @@ Data Model:
 - title (string)
 - description (string)
 - priority (enum: LOW, MEDIUM, HIGH)
-- status (enum: PENDING, IN_PROGRESS, COMPLETED)
+- status (boolean: 0 : not done; 1: done)
 
 Minimum features: 
 - Create a task
