@@ -25,7 +25,6 @@ Minimum features:
 - View aa task by ID
 - Edit a task
 - Delete a task
-- Save tasks to a file (tasks.txt)
 
 Optional Extensions: 
 - Filter tasks by priorty or status.
