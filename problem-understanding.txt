@@ -6,7 +6,7 @@ requirements:
 - Structs or class
 - vector
 - enum
-- file handling
+- small database
 - well-separated functions
 - user input validation
 - interactive menu
