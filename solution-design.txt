@@ -1,0 +1,7 @@
+1. Software architecture:
+    - Program runs in console (CLI).
+    - Uses a menu-driven loop.
+    - Data stored in memory using a vector.
+    - Data persisted using SQLite database.
+    - SQLite accessed through a dedicated database layer.
+    - Single executable program.
