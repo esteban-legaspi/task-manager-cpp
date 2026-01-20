@@ -1,0 +1,17 @@
+START program
+OPEN database
+CREATE table if not exists
+LOAD tasks into vector
+
+WHILE user does not exit
+    DISPLAY menu
+    GET user choice
+    IF choice is valid
+        EXECUTE action
+        UPDATE database
+    ELSE
+        SHOW error
+END WHILE
+
+CLOSE database
+END program
