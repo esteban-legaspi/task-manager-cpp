@@ -23,3 +23,9 @@
     9. Repeat until exit. 
     10. Close database connection. 
     11. End program. 
+4. Error handling
+    - Incorrect or non-existent ID -> show message and repeat 5 
+    - Task manager: Incorrect action selected -> show message and repeat 5
+    - Task manager/task creation or editing/priority: Incorrect or non-existent 
+    priority selected -> show message and repeat selection.
+    - Task manager/deletion incorrect or non-existent ID -> show message and ask for the right ID
