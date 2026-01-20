@@ -5,3 +5,9 @@
     - Data persisted using SQLite database.
     - SQLite accessed through a dedicated database layer.
     - Single executable program.
+2. Modules / Components
+    - Task model: ID, title, description, priority, status, etc. 
+    - Task manager: Task creation, editing, deletion and in-memory storage. 
+    - Database manager (SQLite): Handles all SQLite  operations. 
+    - Menu / UI
+    - Validation
