@@ -29,3 +29,11 @@
     - Task manager/task creation or editing/priority: Incorrect or non-existent 
     priority selected -> show message and repeat selection.
     - Task manager/deletion incorrect or non-existent ID -> show message and ask for the right ID
+5. Technical Decisions
+    - Use SQLite instead of text or bin file: provides structured 
+    storage and persistence.
+    - Keep tasks in memory using vector: Faster access and simpler logic.
+    - Separate database logic into databaseManager: Improves maintainability
+    and separation of concerns.
+    - Use CLI instead of GUI (GUI can be added after the logic is polished):
+    Focus on core logic and requirements. 
