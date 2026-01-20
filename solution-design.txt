@@ -11,3 +11,15 @@
     - Database manager (SQLite): Handles all SQLite  operations. 
     - Menu / UI
     - Validation
+3. Main flow
+    1. Program starts.
+    2. Open SQLite database connection
+    3. Create tasks table if it does not exist
+    4. Load tasks from database into vector. 
+    5. Show interactive menu. 
+    6. User selects an option. 
+    7. Execute selected action.
+    8. Update vector after DB operations. 
+    9. Repeat until exit. 
+    10. Close database connection. 
+    11. End program. 
